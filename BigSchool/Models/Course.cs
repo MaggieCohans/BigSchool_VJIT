@@ -16,8 +16,9 @@ namespace BigSchool.Models
         public string Place { get; set; }
         public DateTime Datetime { get; set; }
         [Required]
-        public Category datetime { get; set; } //Khóa ngoại
-       
+        public Category Category { get; set; } //Khóa ngoại
+        public byte CategoryId { get; set; }
+
     }
     
 }
