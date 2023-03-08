@@ -179,13 +179,13 @@
     <Compile Include="Migrations\202303060257568_InitialModel.designer.cs">
       <DependentUpon>202303060257568_InitialModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202303071722416_CreateTableCourse.cs" />
-    <Compile Include="Migrations\202303071722416_CreateTableCourse.designer.cs">
-      <DependentUpon>202303071722416_CreateTableCourse.cs</DependentUpon>
+    <Compile Include="Migrations\202303080245554_CreatetableCourse.cs" />
+    <Compile Include="Migrations\202303080245554_CreatetableCourse.designer.cs">
+      <DependentUpon>202303080245554_CreatetableCourse.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202303071724570_PopulateCategoryTable.cs" />
-    <Compile Include="Migrations\202303071724570_PopulateCategoryTable.designer.cs">
-      <DependentUpon>202303071724570_PopulateCategoryTable.cs</DependentUpon>
+    <Compile Include="Migrations\202303080249190_Populate.cs" />
+    <Compile Include="Migrations\202303080249190_Populate.designer.cs">
+      <DependentUpon>202303080249190_Populate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -276,11 +276,11 @@
     <EmbeddedResource Include="Migrations\202303060257568_InitialModel.resx">
       <DependentUpon>202303060257568_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202303071722416_CreateTableCourse.resx">
-      <DependentUpon>202303071722416_CreateTableCourse.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202303080245554_CreatetableCourse.resx">
+      <DependentUpon>202303080245554_CreatetableCourse.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202303071724570_PopulateCategoryTable.resx">
-      <DependentUpon>202303071724570_PopulateCategoryTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202303080249190_Populate.resx">
+      <DependentUpon>202303080249190_Populate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
