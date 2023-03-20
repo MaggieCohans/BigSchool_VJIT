@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BigSchool.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,9 +9,13 @@ namespace BigSchool.Controllers
 {
     public class HomeController : Controller
     {
+        public ApplicationDbContext _dbContext;
         public ActionResult Index()
         {
-            return View();
+            var upcomingCourse = _dbContext.Courses
+                
+                .Where(c => c.Datetime > DateTime.Now).OrderBy(p=>p.Datetime).ToList();
+            return View(upcomingCourse);
         }
 
         public ActionResult About()
